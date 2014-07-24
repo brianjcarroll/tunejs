@@ -7,17 +7,24 @@ body {
   margin: 0;
   overflow: hidden;
   padding: 0;
-
+  background-color: #333;
   font-family: 'Quicksans', sans-serif;
 }
 
 .fullscreen-background-image {
+
+  background-image: url('http://37.media.tumblr.com/ecea2b8fe0eed173b713d9052be23312/tumblr_muuhp8fs9Q1st5lhmo1_1280.jpg');
+  background-size: cover;
+  background-position: center center;  
+  opacity: .4;
   height: 100%;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 0;
+
+
 }
 
 .line {
