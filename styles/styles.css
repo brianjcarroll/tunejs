@@ -11,6 +11,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   max-width: 600px;
   margin: 0 auto;
+  color: #ddd;
 }
 
 .fullscreen-background-image {
@@ -47,5 +48,5 @@ body {
 
 .note {
   display: inline-block;
-  color: #000;
+
 }
