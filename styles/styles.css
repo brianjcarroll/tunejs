@@ -12,6 +12,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   color: #ddd;
+  position: relative;
 }
 
 .fullscreen-background-image {
@@ -44,6 +45,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
 }
 
 .notes {
