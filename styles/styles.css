@@ -28,10 +28,11 @@ body {
 }
 
 .line {
-  left: 0;
+  left: 30px;
   position: absolute;
   top: 0;
   transform: translate3d(0,0,0);
   width: 1px;
   height: 100%;
+  background-color: #ddd;
 }
