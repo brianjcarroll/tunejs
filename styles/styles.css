@@ -55,5 +55,6 @@ body {
 
 .note {
   display: inline-block;
+  font-size: 10vw;
 
 }
