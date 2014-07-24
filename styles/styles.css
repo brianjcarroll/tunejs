@@ -38,3 +38,13 @@ body {
   height: 100%;
   background-color: #ddd;
 }
+
+
+
+.notes {
+
+}
+
+.note {
+  display: inline-block;
+}
