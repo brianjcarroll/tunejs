@@ -4,13 +4,14 @@ body {
 }
 
 body {
-  overflow: hidden;
-  padding: 0;
   background-color: #333;
-  font-family: 'Quicksand', sans-serif;
-  max-width: 380px;
-  margin: 0 auto;
   color: #ddd;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 380px;
+  min-width: 320px;
+  padding: 0;
   position: relative;
 }
 
@@ -30,10 +31,10 @@ body {
 .line {
   background-color: #ddd;
   height: 100%;
-  left: 30px;
+  left: 0;
   position: absolute;
   top: 0;
-  transform: translate3d(0,0,0);
+  transform: translate3d(60px,0,0);
   width: 1px;
 }
 
@@ -47,10 +48,11 @@ body {
 .notes {
   text-align: center; 
   padding: 0;
+  white-space: nowrap;
 }
 
 .note {
   display: inline-block;
-  font-size: 40px;
+  font-size: 30px;
   padding: 0 15px;
 }
